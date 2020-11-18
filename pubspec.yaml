@@ -1,0 +1,68 @@
+name: bmi_calculator
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+  line_awesome_flutter: ^1.0.1
+  flutter_screenutil: ^1.0.2
+  animated_theme_switcher: ^1.0.5
+  google_fonts: ^1.1.1
+  smooth_star_rating: ^1.1.1
+
+  firebase_messaging: ^7.0.3
+
+  google_sign_in: ^4.5.4
+  firebase_core: "0.5.0+1"
+  firebase_auth: "^0.18.0+1"
+  cloud_firestore: "^0.14.0+2"
+
+  curved_navigation_bar: ^0.3.4
+  timeline_list: ^0.0.3
+  google_maps_flutter: ^0.5.21
+  geolocator: ^5.3.1
+  google_map_polyline: ^0.2.0+1
+
+  permission: ^0.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/g.png
+    - assets/images/menus/ic_search_menu.png
+    - assets/images/menus/ic_account.png
+    - assets/images/menus/ic_cart.png
+    - assets/images/menus/ic_home.png
+    - assets/images/menus/ic_delete.png
+    - assets/images/menus/ic_near_by.png
+    - assets/images/menus/ic_credit_card.png
+    - assets/images/menus/ic_app_icon.png
+    - assets/images/menus/ic_food_express.png
+    - assets/images/menus/ic_app_icon_black.png
+    - assets/images/topmenu/ic_burger.png
+    - assets/images/topmenu/ic_clothes.png
+    - assets/images/topmenu/ic_others.png
+    - assets/images/topmenu/ic_books.png
+    - assets/images/topmenu/ic_elec.png
+    - assets/images/popular_foods/ic_popular_food_1.png
+    - assets/images/popular_foods/ic_popular_food_2.png
+    - assets/images/popular_foods/ic_popular_food_3.png
+    - assets/images/popular_foods/ic_popular_food_4.png
+    - assets/images/popular_foods/ic_popular_food_5.png
+    - assets/images/popular_foods/ic_popular_food_6.png
+    - assets/images/bestfood/ic_best_food_8.jpeg
+    - assets/images/bestfood/ic_best_food_9.jpeg
+    - assets/images/bestfood/ic_best_food_10.jpeg
